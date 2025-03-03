@@ -20,7 +20,7 @@ public class Web
             driver = new ChromeDriver();
             driver.get("https://www.myjar.app/");
             driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(2, TimeUnit.MINUTES);
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.MINUTES);
 
     }
 

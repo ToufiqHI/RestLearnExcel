@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/BDD/feature",
         glue = "BDD.stepDefinition",
-        strict = true,
         plugin = {"pretty", "json:target/cucumber-report.json"}
 )
 public class Runner
