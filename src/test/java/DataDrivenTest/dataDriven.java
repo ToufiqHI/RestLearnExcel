@@ -102,7 +102,7 @@ public class dataDriven {
         ArrayList<String> a = new ArrayList<>();
 
         // Use try-with-resources to ensure file is closed properly
-        try (FileInputStream file = new FileInputStream("/Users/spare/Downloads/DemoData.xlsx");
+        try (FileInputStream file = new FileInputStream("/Users/spare/Downloads/DemoData (1).xlsx");
              XSSFWorkbook workbook = new XSSFWorkbook(file)) {
 
             int sheetCount = workbook.getNumberOfSheets();
